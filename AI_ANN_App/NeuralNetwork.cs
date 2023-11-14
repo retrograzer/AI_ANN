@@ -4,10 +4,11 @@ public class NeuralNetwork
 
     public NeuralNetwork(int inputCount, int[] hiddenLayerCounts, int outputCount)
     {
-        List<Layer> layerList = new List<Layer>();
-
-        // Add the first hidden layer
-        layerList.Add(new Layer(hiddenLayerCounts[0], inputCount));
+        List<Layer> layerList = new List<Layer>
+        {
+            // Add the first hidden layer
+            new Layer(hiddenLayerCounts[0], inputCount)
+        };
 
         // Add additional hidden layers
         for (int i = 1; i < hiddenLayerCounts.Length; i++)
