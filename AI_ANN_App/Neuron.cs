@@ -11,7 +11,7 @@ public class Neuron
         {
             Weights[i] = rand.NextDouble(); // Random weights
         }
-        Bias = rand.NextDouble(); // Random bias
+        Bias = 1; // Random bias
     }
 
     public double FeedForward(double[] inputs)
