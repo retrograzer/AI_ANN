@@ -13,6 +13,8 @@
             input[i] = rand.NextDouble(); // Random input values
         }
 
+        //this is just to check the commit function
+
         // Process the input through the network
         double[] output = myNetwork.FeedForward(input);
 
