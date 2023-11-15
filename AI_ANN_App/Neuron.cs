@@ -1,9 +1,15 @@
-public class Neuron
+public class Node
 {
+    // All the weights of this node
     public double[] Weights;
+    
+    // Bias will always be 1 but I want a way to control it
     public double Bias;
 
-    public Neuron(int inputCount)
+    // I'm just keeping track of depth for cout purposes
+    public int Depth;
+
+    public Node(int inputCount, int depth)
     {
         Weights = new double[inputCount];
         Random rand = new Random();
@@ -12,6 +18,8 @@ public class Neuron
             Weights[i] = rand.NextDouble(); // Random weights
         }
         Bias = 1;
+        Depth = depth;
+        // Console.WriteLine("Depth of this node: " + Depth + " - Weight Count: " + Weights.Length);
     }
 
     public double FeedForward(double[] inputs)

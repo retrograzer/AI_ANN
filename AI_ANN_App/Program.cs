@@ -1,8 +1,12 @@
 ﻿class Program
 {
-    public static List<double[]> GetTestList () 
+    /// <summary>
+    /// Goes through the files and extracts the lists and passes them back as a list of doubles
+    /// </summary>
+    /// <param name="filePath"></param>
+    /// <returns></returns>
+    public static List<double[]> GetListFromFile (string filePath) 
     {
-        string filePath = "optdigits_train.txt";
         var listOfDoubleArrays = new List<double[]>();
         try
         {
@@ -38,20 +42,25 @@
 
     static void Main(string[] args)
     {
-        GetTestList();
+        // Just in case I need it
+        Random rand = new Random();
+
+        // Get the two lists from the files
+        List<double[]> testList = GetListFromFile("optdigits_test.txt");
+        List<double[]> trainList = GetListFromFile("optdigits_train.txt");
+
+        // Define hidden layer sizes
         int[] hiddenLayers = new int[] {30, 15};
 
         // Creating a neural network with 64 inputs, 2 hidden layers, and 2 outputs
         NeuralNetwork myNetwork = new NeuralNetwork(64, hiddenLayers, 2);
 
-        // Example input (64 elements, could be any double values)
+        // put the input from the list into an array to pass to net
         double[] input = new double[64];
-        Random rand = new Random();
-        for (int i = 0; i < input.Length; i++)
+        for (int i = 0; i < 64; i++)
         {
-            input[i] = rand.Next(); // Random input values
+            input[i] = trainList[0][i]; // Random input values
         }
-
 
         // Process the input through the network
         double[] output = myNetwork.FeedForward(input);

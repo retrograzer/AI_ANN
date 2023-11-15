@@ -7,17 +7,17 @@ public class NeuralNetwork
         List<Layer> layerList = new List<Layer>
         {
             // Add the first hidden layer
-            new Layer(hiddenLayerCounts[0], inputCount)
+            new Layer(hiddenLayerCounts[0], inputCount, 0)
         };
 
         // Add additional hidden layers
         for (int i = 1; i < hiddenLayerCounts.Length; i++)
         {
-            layerList.Add(new Layer(hiddenLayerCounts[i], hiddenLayerCounts[i - 1]));
+            layerList.Add(new Layer(hiddenLayerCounts[i], hiddenLayerCounts[i - 1], i));
         }
 
         // Add the output layer
-        layerList.Add(new Layer(outputCount, hiddenLayerCounts.Last()));
+        layerList.Add(new Layer(outputCount, hiddenLayerCounts.Last(), hiddenLayerCounts.Length));
 
         layers = layerList.ToArray();
     }
