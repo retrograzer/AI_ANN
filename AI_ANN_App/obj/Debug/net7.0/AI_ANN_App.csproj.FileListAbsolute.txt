@@ -12,3 +12,18 @@ D:\Unity Projects\AI_ANN\AI_ANN_App\obj\Debug\net7.0\refint\AI_ANN_App.dll
 D:\Unity Projects\AI_ANN\AI_ANN_App\obj\Debug\net7.0\AI_ANN_App.pdb
 D:\Unity Projects\AI_ANN\AI_ANN_App\obj\Debug\net7.0\AI_ANN_App.genruntimeconfig.cache
 D:\Unity Projects\AI_ANN\AI_ANN_App\obj\Debug\net7.0\ref\AI_ANN_App.dll
+F:\Users\Noah Schultz\Documents\_SchoolWork\AI School\AI_ANN\AI_ANN_App\bin\Debug\net7.0\AI_ANN_App.exe
+F:\Users\Noah Schultz\Documents\_SchoolWork\AI School\AI_ANN\AI_ANN_App\bin\Debug\net7.0\AI_ANN_App.deps.json
+F:\Users\Noah Schultz\Documents\_SchoolWork\AI School\AI_ANN\AI_ANN_App\bin\Debug\net7.0\AI_ANN_App.runtimeconfig.json
+F:\Users\Noah Schultz\Documents\_SchoolWork\AI School\AI_ANN\AI_ANN_App\bin\Debug\net7.0\AI_ANN_App.dll
+F:\Users\Noah Schultz\Documents\_SchoolWork\AI School\AI_ANN\AI_ANN_App\bin\Debug\net7.0\AI_ANN_App.pdb
+F:\Users\Noah Schultz\Documents\_SchoolWork\AI School\AI_ANN\AI_ANN_App\obj\Debug\net7.0\AI_ANN_App.csproj.AssemblyReference.cache
+F:\Users\Noah Schultz\Documents\_SchoolWork\AI School\AI_ANN\AI_ANN_App\obj\Debug\net7.0\AI_ANN_App.GeneratedMSBuildEditorConfig.editorconfig
+F:\Users\Noah Schultz\Documents\_SchoolWork\AI School\AI_ANN\AI_ANN_App\obj\Debug\net7.0\AI_ANN_App.AssemblyInfoInputs.cache
+F:\Users\Noah Schultz\Documents\_SchoolWork\AI School\AI_ANN\AI_ANN_App\obj\Debug\net7.0\AI_ANN_App.AssemblyInfo.cs
+F:\Users\Noah Schultz\Documents\_SchoolWork\AI School\AI_ANN\AI_ANN_App\obj\Debug\net7.0\AI_ANN_App.csproj.CoreCompileInputs.cache
+F:\Users\Noah Schultz\Documents\_SchoolWork\AI School\AI_ANN\AI_ANN_App\obj\Debug\net7.0\AI_ANN_App.dll
+F:\Users\Noah Schultz\Documents\_SchoolWork\AI School\AI_ANN\AI_ANN_App\obj\Debug\net7.0\refint\AI_ANN_App.dll
+F:\Users\Noah Schultz\Documents\_SchoolWork\AI School\AI_ANN\AI_ANN_App\obj\Debug\net7.0\AI_ANN_App.pdb
+F:\Users\Noah Schultz\Documents\_SchoolWork\AI School\AI_ANN\AI_ANN_App\obj\Debug\net7.0\AI_ANN_App.genruntimeconfig.cache
+F:\Users\Noah Schultz\Documents\_SchoolWork\AI School\AI_ANN\AI_ANN_App\obj\Debug\net7.0\ref\AI_ANN_App.dll
