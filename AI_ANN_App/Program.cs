@@ -52,6 +52,8 @@ class Program
         List<double[]> trainList = GetListFromFile("optdigits_train.txt");
 
         int maxGenerations = 20;
+
+        // Watch is just for funsies
         var watch = Stopwatch.StartNew();
 
         // Loop through g generations
