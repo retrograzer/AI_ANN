@@ -12,12 +12,12 @@ public class Layer
         }
     }
 
-    public double[] FeedForward(double[] inputs)
+    public double[] FeedForward(double[] inputs, double answer)
     {
         double[] outputs = new double[Node.Length];
         for (int i = 0; i < Node.Length; i++)
         {
-            outputs[i] = Node[i].FeedForward(inputs);
+            outputs[i] = Node[i].FeedForward(inputs, answer);
         }
         return outputs;
     }

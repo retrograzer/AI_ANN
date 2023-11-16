@@ -22,12 +22,12 @@ public class NeuralNetwork
         layers = layerList.ToArray();
     }
 
-    public double[] FeedForward(double[] inputs)
+    public double[] FeedForward(double[] inputs, double answer)
     {
         double[] outputs = inputs;
         foreach (var layer in layers)
         {
-            outputs = layer.FeedForward(outputs);
+            outputs = layer.FeedForward(outputs, answer);
         }
         return outputs;
     }
